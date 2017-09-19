@@ -1,1 +1,3 @@
-# HowToCreated for assingment 3b
+
+# HowTo
+Created for assingment 3b
