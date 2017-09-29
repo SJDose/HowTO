@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <style>
     div.main { background-color:#000000;
@@ -8,7 +8,13 @@
               margin:20px 0 20px 0; }
     a:link {color:#66a3ff;}
   </style>  
-</head>
+</head><!--Element head is missing a required instance of child element title.
+From line 11, column 1; to line 11, column 7
+/style>  ↩</head>↩<body
+Content model for element head:
+If the document is an iframe srcdoc document or if title information is available from a higher-level protocol: Zero or more elements of metadata content, of which no more than one is a title element and no more than one is a base element.
+Otherwise: One or more elements of metadata content, of which exactly one is a title element and no more than one is a base element.
+Document checking completed. -->
 <body>
 
 <!-- used h1 for title, also a comment! -->
@@ -69,15 +75,15 @@
 <table style="width:100%;">
     <tr><!-- table row -->
       <!-- table header -->
-      <th colespan="2">About the Author</th>
-      
+      <th>About the Author</th>
+      <th> </th>      
     </tr>
     
     <tr>
       <!-- table cell -->
       <!-- and a picture -->
       <td><img src="https://sjdose.github.io/HowTO/Images/me.jpg.jpg" alt="my face" Style="width:50px;height50px:"></td>
-      <td>Stephanie Dose is a junior at MVL in New Ulm Minnesota. She is taking a web design class online and is completly new to this type of computer science.She is also juggling other classes, a job and Student Council projects. As a result she is a bad procrastinator.</th>
+      <td>Stephanie Dose is a junior at MVL in New Ulm Minnesota. She is taking a web design class online and is completly new to this type of computer science.She is also juggling other classes, a job and Student Council projects. As a result she is a bad procrastinator.</td>
     </tr>
 </table>
 </body>
