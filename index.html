@@ -2,28 +2,71 @@
 <html lang="en">
 <head>
   <title>How to create a paper art picture</title>
+  <link rel "stylesheet"
+        href "https://fonts.google.com/specimen/Poppins"
+        href "https://fonts.google.com/specimen/Fredericka+the+Great"
+        href "https://fonts.google.com/specimen/Acme"
+        >
   <style>
-    div.main { background-color:#000000;
-              color:#ffffff;
-              padding:20px; 
-              margin:20px 0 20px 0; }
+    body {
+      font-family: 'Poppins' ,sans-serif;
+    }
+    h1 {
+      font-family: 'Fredricka+the+Great' ,serif;
+    }
+    h2 {
+      font-family: 'Acme' , serif;
+    }
+    h3{
+      font-family: 'Acme' , serif;
+    }
+    .outer-box {
+      background-color:grey;
+      margin:10px;
+      padding:10px;
+      min-height:300px;
+    }
+    .name {
+      color:white;
+      font-family:tahoma;
+      margin-left:20px;
+    }  
+    .picture {
+      margin-left:20px;
+      float:left;
+      margin-right:20px;
+      MArgin-bottom:10px;
+      border:2px solid black ;
+    }
+    .bio {
+      font-family:tahoma;
+      padding-left:20px;
+      padding-right:20px;
+      padding-bottom:20px;
+    }
+    .img {
+      display:block;
+    }
+    div.main { background-color:#ffffff;
+              color:#000000;
+              margin:20px; }
     a:link {color:#66a3ff;}
   </style>  
 </head>
 <body>
 
 <!-- used h1 for title, also a comment! -->
-<h1 style="background-color:#cc66ff;color:#000000;">How to Create a Paper Art Picture</h1>
+<h1>How to Create a Paper Art Picture</h1>
   
 <div class="main">
   <!-- h2 for subtitle -->
-  <h2 style="background-color:#ffffff;color:#cc66ff"> What is it?</h2>
+  <h2> What is it?</h2>
     <!-- p for my paragraph -->
     <p>The type of paper art I'll be teaching you how to make is one that I have used<!-- using A link here/--> <a href="https://www.instagram.com/p/BXhEQGQl4GM/?taken-by=lastlamb_art" target="_blank">multiple times.</a>
     <br>It invloves cutting out the shadows of an image and putting that over a watercolor background. </p>
 </div>
 <div class="main">
-  <h2 style="background-color:#ffffff;color:#cc66ff;">What You'll Need</h2>
+  <h2>What You'll Need</h2>
     <p>The supplies needed are fairly flexible for this project, so feel free to substitute the ones listed here for more readily availabe supplies</p>
     <ul style="list-style-type:square"><!-- I used an unodered list -->
       <li>Thick white paper of desired size</li><!-- with list items -->
@@ -39,7 +82,7 @@
     </ul>
 </div>
 <div class="main">
-  <h2 style="background-color:#ffffff;color:#cc66ff;">The Process</h2>
+  <h2>The Process</h2>
       <p>Time to start working!</p>
     <h3>Preperation</h3>
       <p>To start you'll need to simplify your reference photo. You'll do this by drawing on top of it with your sharpie.
@@ -66,21 +109,16 @@
     <h3>Put It Together</h3>
       <p>Now just glue your drawing to the background and you have your masterpeice!</p>
 </div>
-<!-- table time -->
-<table style="width:100%;">
-    <tr><!-- table row -->
-      <!-- table header -->
-      <th>About the Author</th>
-      <th> </th>      
-    </tr>
-    
-    <tr>
-      <!-- table cell -->
-      <!-- and a picture -->
-      <td><img src="https://sjdose.github.io/HowTO/Images/me.jpg.jpg" alt="my face" Style="width:50px;height50px:"></td>
-      <td>Stephanie Dose is a junior at MVL in New Ulm Minnesota. She is taking a web design class online and is completly new to this type of computer science.She is also juggling other classes, a job and Student Council projects. As a result she is a bad procrastinator.</td>
-    </tr>
-</table>
+<div class="outer-box">
+      <div class="name">
+        <h1>About The Author</h1></div>
+        <div class="picture"><img src="https://sjdose.github.io/AboutTheAuthor/images/myface.jpg"></div>
+          <div class="bio"><h2>Stephanie Dose</h2>
+          <p> Stephanie Dose has lived in the country near Fairfax since she was born in 2001.
+          She grew up with one older sister and five older brothers. She attended St. Pauls Lutheran School from kindergarten through eighth grade and she is now a junior at Minnesota Valley Lutheran High School. She works part time as a crew trainer at Mcdonalds.
+          She is involved with Student Council, Choir, and Art Club. She is also taking an AP Art course while in High school and plans to study visual arts further in college.</p>
+      </div>    
+    </div>
 </body>
 
 </html>
