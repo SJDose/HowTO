@@ -1,0 +1,48 @@
+
+    body {
+      font-family: 'Poppins' ,sans-serif;
+    }
+    h1 {
+      font-family: 'Fredericka the Great' ,serif;
+      font-size: 40px;
+      font-weight: normal;
+    }
+    h2, h3 {
+      font-family: 'Oswald' , serif;
+      color: #606060;
+    }
+    .outer-box {
+      background-color:#606060;
+      margin:10px;
+      padding:10px;
+      min-height:300px;
+    }
+    .name {
+      color:white;
+      font-family:tahoma;
+      margin-left:20px;
+    }  
+    .picture {
+      margin-left:20px;
+      float:left;
+      margin-right:20px;
+      MArgin-bottom:10px;
+      border:2px solid black ;
+    }
+    .bio {
+      font-family:tahoma;
+      padding-left:20px;
+      padding-right:20px;
+      padding-bottom:20px;
+    }
+    .img {
+      display:block;
+    }
+    .main { background-color:#ffffff;
+              color:#000000;
+              margin:20px; }
+    .a:link {color:#66a3ff;}
+    #ad { float:right
+    }
+    .ul {list-style-type:square
+    }
